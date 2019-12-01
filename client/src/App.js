@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
+import Directory from './components/Directory';
 
 class App extends React.Component {
   render(){
@@ -16,6 +17,7 @@ class App extends React.Component {
         {/* <Route path="/" component={Home}/> */}
         <Route path="/login" exact component={Login}/>
         <Route path="/signup" exact component={Signup}/>
+        <Route path="/directory" exact component={Directory}/>
       </Router>
 
     );
